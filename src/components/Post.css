@@ -1,0 +1,113 @@
+.post-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-form form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.post-form form input{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.post-form form textarea{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.post-form form button{
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.blog-web{
+    text-align: center;
+}
+.logout-btn{
+    margin-left: 33.5%;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.logout-btn:hover{
+    color: white;
+    background-color: red;
+}
+.postform-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postform-display h3,p{
+    font-size: 2rem;
+}
+.delect-web{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.delect-web:hover{
+    background-color: red;
+}
+.form-web{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 7px;
+}
+.form-web input{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-radius: 7px;
+}
+.form-web button{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-radius: 7px;
+
+}
+.form-web button:hover{
+    background-color: rgb(94, 94, 94);
+}
+.p-web{
+    text-align: center;
+}
+
+@media (max-width:600px){
+    .post-form form input{
+       width: 100%;
+    }
+    .post-form form textarea{
+        width: 100%;
+    }
+
+}
